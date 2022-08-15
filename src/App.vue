@@ -1,7 +1,13 @@
-<script setup></script>
-<template></template>
+<script setup>
+import Navbar from "./components/Navbar.vue";
+</script>
+<template>
+  <div class="font-serif">
+    <Navbar />
+  </div>
+</template>
 <style>
 body {
-  background-color: rgba(203, 211, 219, 1);
+  background-color: #f5f5f5;
 }
 </style>
