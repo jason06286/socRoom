@@ -1,10 +1,8 @@
 <script setup>
-import Navbar from "./components/Navbar.vue";
+import Home from "@/pages/Home.vue";
 </script>
 <template>
-  <div class="font-serif">
-    <Navbar />
-  </div>
+  <Home />
 </template>
 <style>
 body {
