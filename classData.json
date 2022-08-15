@@ -1,0 +1,102 @@
+[
+  {
+    "name": " Action 1: DMZ Scanner",
+    "duration": 15,
+    "score": 300,
+    "tags": "T1078",
+    "status": "Resolved",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": "2022-07-26 06:26:58",
+    "start": null
+  },
+  {
+    "name": " Action 2: Command Injection",
+    "duration": 15,
+    "score": 300,
+    "tags": "T1078",
+    "status": "Rejected",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": null,
+    "start": null
+  },
+  {
+    "name": " Action 3: SQL Injection",
+    "duration": 5,
+    "score": 50,
+    "tags": "T1078",
+    "status": "Rejected",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": null,
+    "start": null
+  },
+  {
+    "name": " Action 4: Back Connect",
+    "duration": 2,
+    "score": 50,
+    "tags": "T1078",
+    "status": "Processing",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": null,
+    "start": "2022-08-15T07:54:49.230+00:00"
+  },
+  {
+    "name": " Action 5: C2 Server",
+    "duration": 10,
+    "score": 200,
+    "tags": "T1088",
+    "status": "Processing",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": null,
+    "start": "2022-08-15T07:54:49.230+00:00"
+  },
+  {
+    "name": " Action 6: Data Leakage",
+    "duration": 2,
+    "score": 50,
+    "tags": "T1099",
+    "status": "Rejected",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": null,
+    "start": null
+  },
+  {
+    "name": " Action 7: Hash Dumped",
+    "duration": 2,
+    "score": 50,
+    "tags": "T1098",
+    "status": "Processing",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": null,
+    "start": "2022-08-15T07:54:49.230+00:00"
+  },
+  {
+    "name": " Action 8: SQL Injection",
+    "duration": 5,
+    "score": 300,
+    "tags": "T1078",
+    "status": "Pending",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": null,
+    "start": "2022-08-15T07:54:49.230+00:00"
+  },
+  {
+    "name": " Action 9: SQL Injection",
+    "duration": 5,
+    "score": 300,
+    "tags": "T1078",
+    "status": "Pending",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": null,
+    "start": "2022-08-15T07:54:49.230+00:00"
+  },
+  {
+    "name": " Action 10: SQL Injection",
+    "duration": 5,
+    "score": 300,
+    "tags": "T1078",
+    "status": "Pending",
+    "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
+    "finish": null,
+    "start": "2022-08-15T07:54:49.230+00:00"
+  }
+]
