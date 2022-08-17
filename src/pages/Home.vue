@@ -8,7 +8,9 @@ const isOpenModal = ref(false);
 const currentTicketStatus = ref("all");
 
 const getData = async () => {
-  const res = await fetch("../../quizData.json");
+  const url = "https://github.com/jason06286/socRoom/blob/main/quizData.json";
+  // const url="../../quizData.json"
+  const res = await fetch(url);
   quizData.value = await res.json();
   actionData.value = quizData.value.filter((quiz) => quiz.status !== "pending");
 };
