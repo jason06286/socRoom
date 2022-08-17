@@ -7,8 +7,7 @@
     "tags": "T1078",
     "status": "resolved",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": "2022-07-26T00:26:58.230+00:00",
-    "start": null
+    "publish": "2022-08-17T08:26:58.230+00:00"
   },
   {
     "id": "2",
@@ -18,8 +17,7 @@
     "tags": "T1078",
     "status": "rejected",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": null,
-    "start": null
+    "publish": "2022-08-17T06:26:58.230+00:00"
   },
   {
     "id": "3",
@@ -29,30 +27,29 @@
     "tags": "T1078",
     "status": "rejected",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": null,
-    "start": null
+    "publish": "2022-08-17T03:26:58.230+00:00"
   },
   {
     "id": "4",
     "name": " Action 4: Back Connect",
     "duration": 2,
+    "remain": 76,
     "score": 50,
     "tags": "T1078",
     "status": "processing",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": null,
-    "start": "2022-08-15T07:54:49.230+00:00"
+    "publish": "2022-08-17T20:26:58.230+00:00"
   },
   {
     "id": "5",
     "name": " Action 5: C2 Server",
     "duration": 10,
+    "remain": 509,
     "score": 200,
     "tags": "T1088",
     "status": "processing",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": null,
-    "start": "2022-08-15T07:54:49.230+00:00"
+    "publish": "2022-08-18T00:26:58.230+00:00"
   },
   {
     "id": "6",
@@ -62,19 +59,18 @@
     "tags": "T1099",
     "status": "rejected",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": null,
-    "start": null
+    "publish": "2022-08-18T09:26:58.230+00:00"
   },
   {
     "id": "7",
     "name": " Action 7: Hash Dumped",
     "duration": 2,
     "score": 50,
+    "remain": 68,
     "tags": "T1098",
     "status": "processing",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": null,
-    "start": "2022-08-15T07:54:49.230+00:00"
+    "publish": "2022-08-18T10:26:58.230+00:00"
   },
   {
     "id": "8",
@@ -84,8 +80,7 @@
     "tags": "T1078",
     "status": "pending",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": null,
-    "start": "2022-08-15T07:54:49.230+00:00"
+    "publish": "2022-08-17T02:26:58.230+00:00"
   },
   {
     "id": "9",
@@ -95,8 +90,7 @@
     "tags": "T1078",
     "status": "pending",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": null,
-    "start": "2022-08-15T07:54:49.230+00:00"
+    "publish": "2022-08-17T00:26:58.230+00:00"
   },
   {
     "id": "10",
@@ -106,7 +100,6 @@
     "tags": "T1078",
     "status": "pending",
     "description": "A IP with offensive actions has success login on Portal, please find out which account was compromised. Also providing the login time, attacker's IP",
-    "finish": null,
-    "start": "2022-08-15T07:54:49.230+00:00"
+    "publish": "2022-08-17T23:26:58.230+00:00"
   }
 ]

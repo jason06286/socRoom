@@ -34,7 +34,7 @@ const listTheme = {
 };
 </script>
 <template>
-  <div class="mb-5 flex select-none">
+  <div class="mb-5 flex select-none text-sm 2xl:text-base">
     <div class="relative mr-8 mt-2" :class="isTimeLine && 'time-line'">
       <div
         class="flex h-9 w-9 items-center justify-center rounded-full text-white"
@@ -49,13 +49,13 @@ const listTheme = {
       <div
         class="relative mb-1 w-full rounded-md bg-green-500 p-2 text-white shadow-md before:absolute before:top-1/2 before:-left-4 before:-translate-y-1/2 before:border-8 before:border-transparent before:border-r-green-500"
       >
-        <h3 class="text-xl">{{ data.name }}</h3>
+        <h3 class="text-base 2xl:text-xl">{{ data.name }}</h3>
       </div>
-      <p class="text-sm text-gray-500">{{ formatTime(data.finish) }}</p>
+      <p class="text-sm text-gray-500">{{ formatTime(data.publish) }}</p>
     </div>
     <div class="w-full rounded-md bg-white p-2 shadow-md" v-else>
       <h3
-        class="before:border-r-wt relative mb-2 border-b-2 pb-2 text-xl font-semibold before:absolute before:top-1/2 before:-left-6 before:-translate-y-1/2 before:border-8 before:border-transparent before:border-r-white"
+        class="before:border-r-wt relative mb-2 border-b-2 pb-2 text-base font-semibold before:absolute before:top-1/2 before:-left-6 before:-translate-y-1/2 before:border-8 before:border-transparent before:border-r-white 2xl:text-xl"
         :class="listTheme[data?.status].borderColor"
       >
         {{ data.name }}
