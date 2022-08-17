@@ -1,12 +1,19 @@
 <script setup>
 const quizData = ref([]);
 const actionData = ref([]);
+const modalData = ref({});
+
+const isOpenModal = ref(false);
+
 const getData = async () => {
   const res = await fetch("../../quizData.json");
   quizData.value = await res.json();
   actionData.value = quizData.value.filter((quiz) => quiz.status !== "pending");
-  console.log("quizData :>> ", quizData.value);
-  console.log("actionData.value :>> ", actionData.value);
+};
+
+const openModal = (data) => {
+  modalData.value = data;
+  isOpenModal.value = true;
 };
 
 onMounted(() => {
@@ -24,10 +31,12 @@ onMounted(() => {
           :key="item.id"
           :data="item"
           :is-time-line="index + 1 !== actionData.length"
+          @openModal="openModal"
         />
       </div>
       <div class="col-span-3 bg-green-500"></div>
     </div>
   </div>
+  <Modal v-model="isOpenModal" :data="modalData" />
 </template>
 <style></style>

@@ -14,6 +14,8 @@ const props = defineProps({
   },
 });
 
+const emit = defineEmits(["openModal"]);
+
 const listTheme = {
   resolved: {
     icon: "done",
@@ -32,7 +34,7 @@ const listTheme = {
 };
 </script>
 <template>
-  <div class="mb-5 flex">
+  <div class="mb-5 flex select-none">
     <div class="relative mr-8 mt-2" :class="isTimeLine && 'time-line'">
       <div
         class="flex h-9 w-9 items-center justify-center rounded-full text-white"
@@ -66,6 +68,7 @@ const listTheme = {
         <button
           type="button"
           class="px-2 text-sm font-bold text-gray-300 hover:text-gray-500"
+          @click="emit('openModal', data)"
         >
           Read more
         </button>
