@@ -1,29 +1,38 @@
-# trapfrontend
+# Soc Room
 
-- **template of:** vite + vue
-- **tailwindcss:** v3.x
+## 使用技術
 
-## Started
-```bash
-yarn
-# or `npm install`
+這次使用 vite 做開發， UI 框架使用 Tailwind
+
+使用 compensation api 做邏輯拆分
+
+## Coding Style
+
+- Vue 3 Script Setup
+- Vue SFC (由上而下排列)
+  - script: `<script setup>`
+  - template: `<template>`
+  - style: `<style scoped>`
+
+## Vite 插件功能
+
+- src/components
+  - 此資料夾下的 Component 可以在任何 .vue 檔案中直接使用不需用 import。
+  - https://github.com/antfu/vite-plugin-components
+- import 自動導入
+  - 系統會自動偵測 `.vue.js.ts` 檔，並引入 `vue、vue router、Pinia`
+  - https://github.com/antfu/unplugin-auto-import
+
+## 開發
+
 ```
+# install deps
+npm install
 
----
-## Develop
-```bash
-yarn dev
-# or `npm run dev`
+# run dev server
+npm run dev
+
+# run build
+npm run build
+
 ```
-
----
-## Build
-```bash
-yarn build
-# or `npm run build`
-```
-
----
-<p align="center">
-<img src="./powered-by-vitawind-bright.png">
-</p>
